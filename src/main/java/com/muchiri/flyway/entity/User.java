@@ -12,6 +12,8 @@ public class User {
     String user_name;
     String password;
 
+    String address;
+
     public String getId() {
         return id;
     }
@@ -34,5 +36,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
